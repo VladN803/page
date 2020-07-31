@@ -1,0 +1,190 @@
+.megaDIV{
+	float:left;
+	width: 94%;
+	height: 98%;
+	margin: 1% 0% 0% 4%;
+	overflow:auto;
+	}
+.soc{
+	overflow:auto;
+	width: 24.5%;
+	min-height: 98%;
+	float:left;
+	text-align: center;
+	border-style: solid;
+	border-radius: 6px;
+	border-width: 1.5px;
+	border-color: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
+	}
+.game{
+	overflow:auto;
+	width: 24.5%;
+	min-height: 98%;
+	float:left;
+	border-style: solid;
+	border-radius: 6px;
+	border-width: 1.5px;
+	border-color: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.3);
+	}
+.media{
+	overflow:auto;
+	width: 24.5%;
+	min-height: 98%;
+	float: left;
+	border-style: solid;
+	border-radius: 6px;
+	border-width: 1.5px;
+	border-color: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.3);
+	}
+.work{
+	width: 24.5%;
+	min-height: 98%;
+	float: left;
+	overflow:auto;
+	border-style: solid;
+	border-radius: 6px;
+	border-width: 1.5px;
+	border-color: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.3);
+	}
+@font-face{
+			font-family: 'Krona One';
+			 src: url(https://fonts.gstatic.com/s/kronaone/v8/jAnEgHdjHcjgfIb1ZcUyNoWg.woff2) format('woff2');
+			 }
+.main{
+	font-family: Krona One;
+	font-size: 25pt;
+	font-weight: 700;
+	line-height: 150%;
+	color: black;
+	text-align: left;
+	}
+@font-face{font-family: 'Michroma';
+			 src: url('https://fonts.gstatic.com/s/michroma/v10/PN_zRfy9qWD8fEagAPg9pTk.woff2'); }
+.head{
+	font-family: Michroma;
+	font-size: 45pt;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	}
+a {
+    color:rgba(0, 0, 0, 1);
+		text-decoration: none;
+	}
+li{
+	margin: 0 4px 4px 4px;
+	list-style-position: outside;
+	list-style-type: square;
+	}
+html,body{
+	height: 100%;
+	width:100%;
+	}
+body{
+	background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59,#f5af19);
+	background-size: 480% 480%;
+	animation: grad 15s ease infinite;
+	margin: 0 0;
+	}
+@keyframes grad {
+0% {
+	background-position: 0% 50%
+}
+50% {
+	background-position: 100% 50%
+}
+100% {
+	background-position: 0% 50%
+}
+}
+	@media screen and (max-width: 500px){
+		.soc{
+		width: 108px;
+		min-height: 35%;
+		float:left;
+		text-align: center;
+		border-style: solid;
+		border-radius: 6px;
+		border-width: 1.5px;
+		border-color: rgba(0, 0, 0, 0.7);
+		margin: 0 4px 0 0;
+		background: rgba(0, 0, 0, 0.1);
+		}
+		.game{
+		width: 108px;
+		min-height: 35%;
+		float:left;
+		text-align: center;
+		border-style: solid;
+		border-radius: 6px;
+		border-width: 1.5px;
+		border-color: rgba(0, 0, 0, 0.7);
+		margin: 0 4px 0 0;
+		background: rgba(0, 0, 0, 0.1);
+		}
+		.media{
+		width: 108px;
+		min-height: 35%;
+		float:left;
+		text-align: center;
+		border-style: solid;
+		border-radius: 6px;
+		border-width: 1.5px;
+		border-color: rgba(0, 0, 0, 0.7);
+		margin: 0 4px 0 0;
+		background: rgba(0, 0, 0, 0.1);
+		}
+		.work{
+		width: 108px;
+		min-height: 35%;
+		float:left;
+		text-align: center;
+		border-style: solid;
+		border-radius: 6px;
+		border-width: 1.5px;
+		border-color: rgba(0, 0, 0, 0.7);
+		margin: 0 4px 0 0;
+		background: rgba(0, 0, 0, 0.1);
+		}
+		.main{
+	font-family: Krona One;
+	font-size: 6pt;
+	font-style: normal;
+	line-height: 150%;
+	color: white;
+	text-align: left;
+		-moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+@font-face{
+			font-family: 'Michroma';
+			 src: url('https://fonts.gstatic.com/s/michroma/v10/PN_zRfy9qWD8fEagAPg9pTk.woff2');
+			 }
+.head{
+	font-family: Michroma;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 250%;
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+}
+	.megaDIV{
+	float:none;
+	width: 99%;
+	height: 69%;
+	overflow:auto;
+	}
+	li{
+	margin: 0 0px 3px 0px;
+	padding: 0;
+	list-style-position: outside;
+	list-style-type: circle;
+	}
+	}
