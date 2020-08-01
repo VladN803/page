@@ -118,7 +118,7 @@ body{
 		.game{
 		width: 500px;
 		min-height: 40%;
-		float:right;
+		float:left;
 		text-align: center;
 		border-style: solid;
 		border-radius: 6px;
@@ -142,7 +142,7 @@ body{
 		.work{
 		width: 500px;
 		min-height: 40%;
-		float:right;
+		float:left;
 		text-align: center;
 		border-style: solid;
 		border-radius: 6px;
