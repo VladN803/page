@@ -104,51 +104,51 @@ body{
 }
 	@media screen and (max-width: 1081px){
 		.soc{
-		width: 308px;
-		min-height: 35%;
+		width: 500px;
+		min-height: 30%;
 		float:left;
 		text-align: center;
 		border-style: solid;
 		border-radius: 6px;
 		border-width: 1.5px;
 		border-color: rgba(0, 0, 0, 0.7);
-		margin: 0% 4px 0 0;
+		margin: 0% 4px 0 10;
 		background: rgba(0, 0, 0, 0.1);
 		}
 		.game{
-		width: 308px;
-		min-height: 35%;
-		float:left;
+		width: 500px;
+		min-height: 40%;
+		float:right;
 		text-align: center;
 		border-style: solid;
 		border-radius: 6px;
 		border-width: 1.5px;
 		border-color: rgba(0, 0, 0, 0.7);
-		margin: 0% 4px 0 0;
+		margin: 0% 10px 0 0;
 		background: rgba(0, 0, 0, 0.1);
 		}
 		.media{
-		width: 308px;
-		min-height: 35%;
+		width: 500px;
+		min-height: 40%;
 		float:left;
 		text-align: center;
 		border-style: solid;
 		border-radius: 6px;
 		border-width: 1.5px;
 		border-color: rgba(0, 0, 0, 0.7);
-		margin: 0% 4px 0 0;
+		margin: 0% 4px 0 10px;
 		background: rgba(0, 0, 0, 0.1);
 		}
 		.work{
-		width: 308px;
-		min-height: 35%;
-		float:left;
+		width: 500px;
+		min-height: 40%;
+		float:right;
 		text-align: center;
 		border-style: solid;
 		border-radius: 6px;
 		border-width: 1.5px;
 		border-color: rgba(0, 0, 0, 0.7);
-		margin: 0% 4px 0% 0%;
+		margin: 0% 10px 0 0%;
 		background: rgba(0, 0, 0, 0.1);
 		}
 		.main{
