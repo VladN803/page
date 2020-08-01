@@ -104,8 +104,8 @@ body{
 }
 	@media screen and (max-width: 1081px){
 		.soc{
-		width: 500px;
-		min-height: 30%;
+		width: 450px;
+		min-height: 40%;
 		float:left;
 		text-align: center;
 		border-style: solid;
@@ -116,7 +116,7 @@ body{
 		background: rgba(0, 0, 0, 0.1);
 		}
 		.game{
-		width: 500px;
+		width: 450px;
 		min-height: 40%;
 		float:right;
 		text-align: center;
@@ -128,7 +128,7 @@ body{
 		background: rgba(0, 0, 0, 0.1);
 		}
 		.media{
-		width: 500px;
+		width: 450px;
 		min-height: 40%;
 		float:left;
 		text-align: center;
@@ -140,7 +140,7 @@ body{
 		background: rgba(0, 0, 0, 0.1);
 		}
 		.work{
-		width: 500px;
+		width: 450px;
 		min-height: 40%;
 		float:right;
 		text-align: center;
